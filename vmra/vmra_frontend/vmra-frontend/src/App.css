@@ -1,0 +1,100 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  color: #343a40;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Summary section */
+.summary {
+  margin: 0 auto 20px auto;
+  padding: 15px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  width: 50%;
+  text-align: center;
+}
+
+.summary p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+thead {
+  background-color: #6c757d;
+  color: white;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #dee2e6;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Button styles */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button.allocate {
+  background-color: #007bff;
+  color: white;
+}
+
+button.schedule {
+  background-color: #28a745;
+  color: white;
+}
+
+/* Gantt chart styles */
+.gantt-chart {
+  padding: 15px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+}
+
+.gantt-chart p {
+  margin: 0;
+  font-style: italic;
+  color: #6c757d;
+}
+
+/* Actions section */
+.actions {
+  text-align: center;
+}
